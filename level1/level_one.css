@@ -1,4 +1,31 @@
 .container {
-    display: grid;
-    /* style the columns and rows here */
-  }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, 150px);  
+  gap: 10px; 
+}
+
+.container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.container div:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.w{
+  background-color: antiquewhite;
+}
+.s{
+  background-color:chocolate;
+}
+.S{
+  background-color:brown;
+}
+.f{
+  background-color:blueviolet;
+}
