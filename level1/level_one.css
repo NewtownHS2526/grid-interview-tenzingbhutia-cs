@@ -11,21 +11,10 @@
   justify-content: center;
   font-weight: bold;
   border-radius: 5px;
+  background-color: bisque;
 }
 .container div:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease;
   cursor: pointer;
-}
-.w{
-  background-color: antiquewhite;
-}
-.s{
-  background-color:chocolate;
-}
-.S{
-  background-color:brown;
-}
-.f{
-  background-color:blueviolet;
 }

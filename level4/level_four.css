@@ -1,19 +1,68 @@
 .container {
     display: grid;
+    height: 100vh;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 80px 60px 1fr 50px;
+    grid-template-areas: 
+    "navbar navbar"
+    "sidebar title"
+    "sidebar content"
+    "footer footer";
   }
   
   #navbar {
+  grid-area: navbar;
+  display: flex;
+  background-color: #f7a7a6;
+  border: 5px solid black;
+  font-weight: bold;
+ align-items: center;
+ justify-content: center;
+ font-size: x-large;
   }
   
   #sidebar {
+    grid-area: sidebar;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    transform: rotate(180deg);
     writing-mode: vertical-rl;
+    border: 5px solid black;
+    font-size: x-large;
   }
   
   #title {
+    grid-area: title;
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    align-items: center;
+    border: 5px solid black;
+    font-size: x-large;
+
+
   }
   
   #content {
+    grid-area: content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chartreuse;
+    border: 5px solid black;
+    font-size: x-large;
   }
   
   #footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkred;
+    border: 5px solid black;
+    font-size: x-large;
   }
+
+  

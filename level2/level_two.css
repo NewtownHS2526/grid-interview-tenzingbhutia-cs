@@ -1,5 +1,171 @@
 .months-container {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 1px;
 }
 
-.days-container {
+.months-container div{
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+h2{
+  text-align: center;
+  font-family: monospace;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.jan{
+  background-color: #a0deff;
+}
+.feb{
+  background-color: #FFDDCC;
+}
+.mar{
+  background-color: #FFEECC;
+}
+.apr{
+  background-color: #FFFFCC;
+}
+.may{
+  background-color: #DDFFCC;
+}
+.jun{
+  background-color: #CCFFCC;
+}
+.jul{
+  background-color: #CCFFDD;
+}
+.aug{
+  background-color: #CCFFEE;
+}
+.sep{
+  background-color: #CCFFFF;
+}
+.oct{
+  background-color: #CCDDFF;
+}
+.nov{
+  background-color: #CCCCFF;
+}
+.dec{
+  background-color: #DDCCFF;
+}
+.days-container{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1px;
+}
+.days-container div{
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+.sun{
+  background-color: #ae0d5d;
+}
+.mon{
+  background-color: #0d5dae;
+}
+.tue{
+  background-color: #0dae5d;
+}
+.wed{
+  background-color: #ae5d0d;
+}
+.thu{
+  background-color: #5d0dae;
+}
+.fri{
+  background-color: #5dae0d;
+}
+.sat{
+  background-color: #ae0d0d;
+}
+.one{
+  background-color: #f0f8ff;
+}
+.two{
+  background-color: #faebd7;
+}
+.three{
+  background-color: #ffe4c4;
+}
+.four{
+  background-color: #ffebcd;
+}
+.five{
+  background-color: #8a2be2;
+}
+.six{
+  background-color: #a52a2a;
+}
+.seven{
+  background-color: #deb887;
+}
+.eight{
+  background-color: #5f9ea0;
+}
+.nine{
+  background-color: #7fff00;
+}
+.ten{
+  background-color: #d2691e;
+}
+.eleven{
+  background-color: #ff7f50;
+}
+.twelve{
+  background-color: #6495ed;
+}
+.thirteen{
+  background-color: #fff8dc;
+}
+.fourteen{
+  background-color: #dc143c;
+}
+.fifteen{
+  background-color: #00ffff;
+}
+.sixteen{
+  background-color: #00008b;
+}
+.seventeen{
+  background-color: #008b8b;
+}
+.eighteen{
+  background-color: #b8860b;
+}
+.nineteen{
+  background-color: #a9a9a9;
+}
+.twenty{
+  background-color: #006400;
+}
+.twenty-one{
+  background-color: #bdb76b;
+}
+.twenty-two{
+  background-color: #8b008b;
+}
+.twenty-three{
+  background-color: #556b2f;
+}
+.twenty-four{
+  background-color: #ff8c00;
+}
+.twenty-five{
+  background-color: #9932cc;
+}
+.twenty-six{
+  background-color: #8b0000;
+}
+.twenty-seven{
+  background-color: #e9967a;
+}
+.twenty-eight{
+  background-color: #8fbc8f;
 }
